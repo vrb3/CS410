@@ -2,9 +2,9 @@
 
 This work is a subset of the join project work done with my colleague Wang Chun Wei (wcwei2). Full project work description could be found at "https://github.com/weiwangchun/cs410.git".  As a part of this full project, following work has been done: 
 
-Step 1: 10-Q and 10-K of a company are extracted. - Done by Wang Chun Wei (wcwei2)
-Step 2: This forms the input to my program "SentimentAnalysis.py".  - Done by Venkat Rao Bhamidipathi (vrb3)
-Step 3: Consolidate Step 1 and Step 2 into a single report - Done by Wang Chun Wei (wcwei2)
+* Step 1: 10-Q and 10-K of a company are extracted. - Done by Wang Chun Wei (wcwei2)
+* Step 2: This forms the input to my program "SentimentAnalysis.py".  - Done by Venkat Rao Bhamidipathi (vrb3)
+* Step 3: Consolidate Step 1 and Step 2 into a single report - Done by Wang Chun Wei (wcwei2)
 
 Here, Step 2 has been explained in detailed i.e. part of work done by me. 
 

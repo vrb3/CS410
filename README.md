@@ -61,8 +61,8 @@ This report shall prompt to "Enter file name to analyze the sentiment: ". Here, 
 
 Sample output shall be :
 
-Sentiment:  POSITIVE / NEGATIVE -> Denotes overall Sentiment of the input file
-Sentiment Confidence:   %age    -> Denotes accuracy of the Sentiment analysis. 
+* Sentiment:  POSITIVE / NEGATIVE -> Denotes overall Sentiment of the input file
+* Sentiment Confidence:   %age    -> Denotes accuracy of the Sentiment analysis. 
 
 
 References:

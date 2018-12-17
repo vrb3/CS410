@@ -1,6 +1,6 @@
 # Conducting Sentiment Analysis:
 
-This work is a subset of the join project work done with my colleague Wang Chun Wei (wcwei2). Full project work description could be found at "https://github.com/weiwangchun/cs410.git".  As a part of this full project, following work has been done: 
+This work is a subset of the joint project work done with my colleague Wang Chun Wei (wcwei2) as a part of CS410 Text Information Systems. Full project work could be found at "https://github.com/weiwangchun/cs410.git".  As a part of this full project, following work has been done: 
 
 * Step 1: 10-Q and 10-K of a company are extracted. - Done by Wang Chun Wei (wcwei2)
 * Step 2: This forms the input to my program "SentimentAnalysis.py".  - Done by Venkat Rao Bhamidipathi (vrb3)
@@ -49,13 +49,13 @@ Concept of pickling has been used. Once the classifer's are trained to a desired
 Note: If we want to the report to re-evaluate without using the pickle concept, the files in the folder "pickle" needs to be deleted. Only if the file does not exist, system shall evaluate and save.
 
 
-Output Explanation: Details of the output have been explained under the folder "Execution Summary". Initial execution of the report has been captured in the file "SentimentAnalysis_Initial_Evaluation.html". This doesn't use the files in the Pickle folder as this folder shall be empty. Initial executiion shall create the files in the pickle folder. 
+* Output Explanation: 
 
-On Second execution, this program shall use the files in pickle folder to evaluate. The output of this is in file "entimentAnalysis_2ndTime_Evaluation.html".
+Details of the output have been explained under the folder "Execution Summary". Initial execution of the report has been captured in the file "SentimentAnalysis_Initial_Evaluation.html". During the initial run, "Pickle" folder shall be empty, so the initial run will evaluate the classifiers. 
 
+On Second execution, this program shall use the files in pickle folder to evaluate. It is assumed that user has selected "Yes" option to save the classifier information in the Pickle folder. The output of this is in file "SentimentAnalysis_2ndTime_Evaluation.html".
 
-
-Executing report "SentimentAnalysis.py" / "SentimentAnalysis.ipynb":
+* Executing report "SentimentAnalysis.py" / "SentimentAnalysis.ipynb":
 
 This report shall prompt to "Enter file name to analyze the sentiment: ". Here, for testing purpose, I have used either TestNegative.txt / TestPositive.txt. We could enter any file name whose text needs to be anlysed for Sentiment. Report assumes that this file is in the same folder as the Master program.  On successful execution of the sentiment analysis, report shall prompt "Enter Yes to SAVE the trained data"  to save the classifier files under Pickle folder if selected as Yes. 
 
